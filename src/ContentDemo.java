@@ -6,10 +6,10 @@ public class ContentDemo {
 
         ArrayList<Contentitem> items = new ArrayList<>();
 
-        items.add(new VideoLecture("Java OOP Basics", 2024, 90, "HD"));
-        items.add(new VideoLecture("Advanced Java", 2022, 120, "4K"));
-        items.add(new PodcastEpisode("Tech Talks", 2023, 45, "John Smith"));
-        items.add(new PodcastEpisode("Programming Life", 2021, 60, "Anna Brown"));
+        items.add(new VideoLecture("Video 1", 2024, 90, "HD"));
+        items.add(new VideoLecture("Video 2", 2022, 120, "4K"));
+        items.add(new PodcastEpisode("Podcat 1", 2023, 45, "Host 1"));
+        items.add(new PodcastEpisode("Podcast 2", 2021, 60, "Host 2"));
 
         int currentYear = Year.now().getValue();
 
